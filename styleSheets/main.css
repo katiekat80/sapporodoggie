@@ -1,40 +1,42 @@
 body {
     color: darkred;
     margin: 0;
-    padding: 0;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: rgb(255, 0, 140);
+    background-color: rgb(255, 154, 184);
+    text-align: center;
 }
 header {
-    background-image: url(../images/footer/paws.jpg);
-    text-align: center;
+    background-image: url(../images/header/paws.jpg);
     border-bottom: 3px solid;
 }
 header img {
-    height: 50px;
+    max-height: 50px;
 }
 header h1 {
-    font-size: 50px;
+    max-height: 50px;
+    font-size: xxx-large;
     background-color: antiquewhite;
     border: 2px solid;
     border-radius: 15px;
     box-shadow: 0px 0px 15px;
     display: inline-flex;
     float: center;
-    padding: 10px;
+    padding: 1%;
 }
-header a , footer p, address{
+header a , footer p, footer address{
     color: darkred;
     background-color: antiquewhite;
     padding: 8px;
     border: 2px solid;
     border-radius: 10px;
     box-shadow: 0px 0px 15px;
+    display: inline-flex;
+    float: center;
 }
 main {
-    background-color: rgb(255, 0, 140);
+    background-color: rgb(255, 154, 184);
     color: darkred;
     display: flex;
     flex-direction: column;
@@ -53,6 +55,9 @@ article {
     margin-top: 8px;
     padding: 10px;
 }
+article p {
+    text-align: left;
+}
 footer {
     background-color: rgb(190, 6, 190);
     margin-top: auto 0;
@@ -60,15 +65,6 @@ footer {
     box-shadow: 0 50vh 0 50vh rgb(190, 6, 190);
     text-align: center;
     margin-top: auto;
-}
-footer address {
-    display: inline-flex;
-    float: center;
-    padding: 10px;
-    margin-bottom: 2%;
-}
-footer marquee img{
-    height: 31px;
 }
 #flip {
     -webkit-transform: scaleX(-1);
@@ -78,6 +74,12 @@ footer marquee img{
     color: red;
     font-weight: bold;
 }
+#footimg {
+    margin-top: 2%;
+}
+
+
+
 @media screen and (max-width: 1020px) {
     nav {font-size: xx-large;}
 
@@ -90,7 +92,7 @@ footer marquee img{
     }
     header {
         background-image: none;
-        background-color: rgb(190, 6, 190);
+        background-color: antiquewhite;
     }
     header h1, header a {
         box-shadow: none;
@@ -98,9 +100,15 @@ footer marquee img{
         border: none;
         padding: 0;
         margin: 0;
-        color: antiquewhite;
+        color: purple;
     }
     header a {
         padding: 15px;
+    }
+    article {
+        margin: 2% 5%;
+    }
+    footer address {
+        font-size: xx-large;
     }
 }
