@@ -1,0 +1,106 @@
+body {
+    color: darkred;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 0, 140);
+}
+header {
+    background-image: url(../images/footer/paws.jpg);
+    text-align: center;
+    border-bottom: 3px solid;
+}
+header img {
+    height: 50px;
+}
+header h1 {
+    font-size: 50px;
+    background-color: antiquewhite;
+    border: 2px solid;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px;
+    display: inline-flex;
+    float: center;
+    padding: 10px;
+}
+header a , footer p, address{
+    color: darkred;
+    background-color: antiquewhite;
+    padding: 8px;
+    border: 2px solid;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px;
+}
+main {
+    background-color: rgb(255, 0, 140);
+    color: darkred;
+    display: flex;
+    flex-direction: column;
+}
+main p {
+    font-size: 20px;
+}
+main h2 {
+    font-size: 30px;
+}
+article {
+    background-color: antiquewhite;
+    border: 3px solid;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 8px;
+    padding: 10px;
+}
+footer {
+    background-color: rgb(190, 6, 190);
+    margin-top: auto 0;
+    border-top: 3px solid;
+    box-shadow: 0 50vh 0 50vh rgb(190, 6, 190);
+    text-align: center;
+    margin-top: auto;
+}
+footer address {
+    display: inline-flex;
+    float: center;
+    padding: 10px;
+    margin-bottom: 2%;
+}
+footer marquee img{
+    height: 31px;
+}
+#flip {
+    -webkit-transform: scaleX(-1);
+    transform: -1;
+}
+#emphasise {
+    color: red;
+    font-weight: bold;
+}
+@media screen and (max-width: 1020px) {
+    nav {font-size: xx-large;}
+
+    header a {display: inline-block;}
+
+    nav a {margin: 0 .5em;}
+    
+    main {
+        font-size: x-large;
+    }
+    header {
+        background-image: none;
+        background-color: rgb(190, 6, 190);
+    }
+    header h1, header a {
+        box-shadow: none;
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        margin: 0;
+        color: antiquewhite;
+    }
+    header a {
+        padding: 15px;
+    }
+}

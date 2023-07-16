@@ -1,0 +1,20 @@
+main {
+    text-align: center;
+}
+main a, main img {
+    height: 50px;
+    font-size: 50px;
+}
+main a {
+    background-color: rgb(190, 6, 190);
+    display: inline-flex;
+    float: center;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid darkred;
+}
+a img {
+    padding: 0 10px;
+}

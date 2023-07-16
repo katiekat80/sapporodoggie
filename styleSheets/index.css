@@ -1,0 +1,13 @@
+article {
+    color: black;
+    border-color: darkred;
+}
+article h2 {
+    text-align: center;
+}
+#dateTime {
+    font-style: italic;
+    color: grey;
+    font-size: 15px;
+    text-align: center;
+}
