@@ -7,6 +7,7 @@ body {
 header {
     background-image: url(../images/header/paws.jpg);
     border-bottom: 3px solid;
+    margin-bottom: 5px;
 }
 header img {
     max-height: 50px;
@@ -35,8 +36,6 @@ header a , footer p, footer address{
 main {
     background-color: rgb(255, 154, 184);
     color: darkred;
-    display: flex;
-    flex-direction: column;
 }
 main p {
     font-size: 20px;
@@ -60,6 +59,7 @@ footer {
     border-top: 3px solid;
     box-shadow: 0 50vh 0 50vh rgb(190, 6, 190);
     text-align: center;
+    margin-top: 5px;
 }
 #flip {
     -webkit-transform: scaleX(-1);
