@@ -1,0 +1,13 @@
+body {
+    background-image: url(/images/catGround.png);
+    text-align: center;
+    color: blanchedalmond;
+    font-size: 150%;
+}
+a {
+    color: blanchedalmond;
+}
+img {
+    width: 90%;
+    border: 5px solid red;
+}
