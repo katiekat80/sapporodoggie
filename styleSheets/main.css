@@ -3,7 +3,15 @@ body {
     text-align: center;
     color: blanchedalmond;
     font-size: 150%;
+    margin: 0;
+}
+header {
+    background-image: url(/images/circuit.png);
+    padding-top: 10px;
 }
 a {
     color: blanchedalmond;
+}
+hr {
+    border: 2.5px solid red;
 }
