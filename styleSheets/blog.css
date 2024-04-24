@@ -6,6 +6,7 @@ article {
     border: 5px solid red;
     text-align: left;
     margin-bottom: 15px;
+    width: 100%;
 }
 img {
     width: 46%;
