@@ -1,5 +1,5 @@
 body {
-    background-image: url(/images/catGround.png);
+    background-image: url(/images/backgrounds/catGround.png);
     text-align: center;
     color: blanchedalmond;
     font-size: 130%;
@@ -10,7 +10,7 @@ main {
     margin-right: 20%;
 }
 header {
-    background-image: url(/images/circuit.png);
+    background-image: url(/images/backgrounds/circuit.png);
     padding-top: 10px;
 }
 a {
