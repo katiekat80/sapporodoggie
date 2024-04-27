@@ -6,3 +6,8 @@ main {
 img {
     width: 150px;
 }
+@media (max-width: 1000px){
+    img {
+        width: 300px;
+    }
+}
