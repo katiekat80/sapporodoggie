@@ -1,26 +1,39 @@
-body {
-    background-image: url(/images/backgrounds/catGround.png);
-    text-align: center;
-    color: blanchedalmond;
-    font-size: 130%;
-    margin: 0;
-}
 main {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin: 0 20%;
+
 }
 header {
-    background-image: url(/images/backgrounds/circuit.png);
+    background-image: url(../images/backgrounds/circuit.png);
     padding-top: 10px;
 }
-
+body {
+    margin: 0;
+    color: antiquewhite;
+    text-align: center;
+    background-image: url(../images/backgrounds/catGround.png);
+    font-size: 130%;
+}
 a {
-    color: blanchedalmond;
+    color: antiquewhite;
 }
 hr {
     border: 2.5px solid red;
 }
-footer img {
-    width: 150px;
-    border: 0;
+@media (max-width: 1000px) {
+    main {
+        margin: 0 5%;
+    }
+    header nav a{
+        display: inline-block;
+        font-size: 150%;
+        padding: 0 10px;
+    }
+    h1, h2 {
+        font-size: 200%;
+        margin: 10px;
+    }
+    a, p {
+        font-size: 150%;
+        margin: 5px 10px;
+    }
 }

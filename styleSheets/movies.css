@@ -23,6 +23,14 @@ img {
     float: left;
     padding: 0 10px 10px 0;
 }
+main a {
+    text-shadow: 0 0 6px black;
+}
 footer {
     clear: both;
+}
+@media (max-width: 1000px){
+    main li, main h1 {
+        margin: 15px 0;
+    }
 }
