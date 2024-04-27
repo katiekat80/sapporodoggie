@@ -6,7 +6,7 @@ main {
 img {
     width: 150px;
 }
-@media (max-width: 1080px){
+@media screen and (max-width: 1000px){
     img {
         width: 300px;
     }
