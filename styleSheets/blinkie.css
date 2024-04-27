@@ -1,7 +1,7 @@
 img {
     width: 150px;
 }
-@media screen and (max-width: 1090px){
+@media screen and (max-width: 1020px){
     img {
         width: 300px
         }

@@ -19,7 +19,7 @@ a {
 hr {
     border: 2.5px solid red;
 }
-@media screen and (max-width: 1090px) {
+@media screen and (max-width: 1020px) {
     main {
         margin: 0 5%;
     }
