@@ -28,6 +28,7 @@ main div {
 }
 main div a {
     margin: 5px;
+    background-color: black;
 }
 @media screen and (min-width: 1020px){
     main {
