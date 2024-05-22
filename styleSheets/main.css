@@ -2,19 +2,18 @@ body {
     text-align: center;
     background-image: url(../images/backgrounds/catGround.png);
     color: white;
-    font-size: 125%;
     text-shadow: 0px 0px 10px black;
     margin: 0;
+    font-size: 200%;
 }
 img {
     width: 95%;
 }
-header a {
-    font-size: 200%;
+main article {
+    font-size: 80%;
 }
 a {
     color:white;
-    font-size: 160%;
     margin: 0 1%;
 }
 footer div {
@@ -32,8 +31,10 @@ section a {
     background-color: black;
 }
 @media screen and (min-width: 1020px){
-    main {
+    body {
         font-size: 100%;
+    }
+    main {
         margin: 0 10%;
     }
     header {
