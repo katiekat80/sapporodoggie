@@ -1,9 +1,8 @@
-img {
-    width: 150px;
+main img {
+    max-width: 300px;
 }
-@media screen and (max-width: 1020px){
-    img {
-        width: 300px
-        }
+@media screen and (min-width: 1020px) {
+    main img {
+        max-width: 150px;
     }
-    
+}

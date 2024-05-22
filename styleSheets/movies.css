@@ -1,43 +1,13 @@
 article {
-    clear: both;
-    background-color: blanchedalmond;
+    background-color: white;
     color: black;
-    float: left;
-    border: 5px solid red;
-    text-align: left;
-    margin-bottom: 15px;
+    text-shadow: none;
 }
-h2, h3, p {
-    margin: 0;
+main {
+    margin: 10px;
 }
-ul {
-    display: table;
-    margin: 0 auto;
-    text-align: left;
-}
-h3 {
-    font-size: 12pt;
-}
-img {
-    width: 50%;
-    float: left;
-    padding: 0 10px 10px 0;
-}
-main a {
-    text-shadow: 0 0 6px black;
-}
-footer {
-    clear: both;
-}
-@media screen and (max-width: 1020px){
-    main li, main h1 {
-        margin: 15px 0;
-    }
-    article {
-        text-align: center;
-    }
-    article img {
-        float: none;
-        width: 90%;
+@media screen and (min-width: 1020px) {
+    main {
+        margin: 0 15%;
     }
 }
