@@ -25,6 +25,7 @@ footer img {
 }
 section {
     display: flex;
+    margin: 0 20%;
 }
 section a {
     margin: 5px;
