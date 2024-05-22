@@ -23,10 +23,10 @@ footer div {
 footer img {
     max-width: 150px;
 }
-main div {
+section {
     display: flex;
 }
-main div a {
+section a {
     margin: 5px;
     background-color: black;
 }
