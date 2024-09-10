@@ -14,7 +14,7 @@ main {
     display: inline-block;
 }
 img {
-    min-width: 48%;
+    min-width: 640px;
     margin: 5px;
     box-shadow: 0 0px 6px  1px white;
 }
