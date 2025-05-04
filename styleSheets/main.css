@@ -21,3 +21,6 @@ img {
 img:hover {
     opacity: 70%;
 }
+a {
+    color: white;
+}
