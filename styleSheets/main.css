@@ -4,12 +4,10 @@ html {
     font-family:'Courier New', Courier, monospace;
     text-shadow: 0 0 5px white;
 }
-header {
-    background-color: black;
-}
 body {
     margin: 0;
-    background-color: black;}
+    background-image: url(../images/backgrounds/131.png);
+}    
 main {
     display: inline-block;
 }
@@ -23,4 +21,7 @@ img:hover {
 }
 a {
     color: white;
+}
+main p, main h2 {
+    background-color: black;
 }
